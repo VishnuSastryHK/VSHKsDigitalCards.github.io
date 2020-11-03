@@ -1,0 +1,223 @@
+:root {
+    --color1: #09486B;
+    --color2: #1593A2; 
+    --color3: #B7C0BD;
+    --color4: #FF9899;
+    --color5: #FBDE44;
+    --color6: #54B560;
+  }
+
+#MainContainer
+{
+    background-color: white;
+    max-width:90%;
+    height:auto;
+    align-items: center;
+    border-width: 10px;
+    border-color: var(--color2);
+    border-style: solid;
+    top:5%;
+    position: relative;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+}
+.Headings
+{
+    margin:15px;
+    text-transform: uppercase;
+    text-shadow: 0px 10px 20px rgba(0,0,0,0.25);
+    
+}
+body
+{
+    background-color: var(--color1);
+}
+button:hover{
+    transform: scale(1.03);
+}
+button:focus{
+    outline: 0;
+}
+a:hover
+{
+    transform:scale(1.03);
+}
+
+#CompanyLogo
+{
+    max-width:50%;
+}
+
+#ContactContainer
+{
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color3);
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+    
+}
+
+#footer
+{
+    margin-top:5px;
+    bottom:0;
+    position:fixed;
+    width:105%;
+    color: white;
+    background-color: var(--color2);
+    padding:10px 5px 0 5px ;
+    box-shadow:inset 0px 0px 20px rgba(0,0,0,0.5);
+    border-top: var(--color4);
+    border-style: solid;
+    border-top-width: 5px;
+    border-bottom: none;
+}
+
+.footer_div > a:hover
+{
+    color: white;
+    text-decoration: none;
+    transform: scale(1.25);
+}
+.footer_text
+{
+    color:white;
+}
+
+i.MainContainerIcons {
+    display:inline-block;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    background-color:var(--color2) ;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.5em;
+    color: white;
+    margin-left: 20px;
+    box-shadow:inset 0px 0px 10px rgba(0,0,0,0.25);
+
+  
+}
+a
+{
+  color:black;
+}
+a:hover
+{
+  text-decoration: none;
+}
+.fas
+{
+    font-size: 24px;
+}
+.fa 
+{
+    font-size:24px;
+    color:white;
+}
+.contact-info-wrapper {
+    display: flex;
+    text-align: left;
+    
+}
+
+/*About Section*/
+.get_connected_icon
+{
+    display:inline-block;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius:50px;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+}
+
+/*Products Section*/
+.Product_Container
+{
+    border-width: 2px;
+    border-color: var(--color4);
+    border-style: solid;
+    padding:10px;
+    margin-bottom:10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+.Product_Text_Container
+{
+    padding:10px;
+    overflow-wrap: hidden;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+}
+.Product_Heading_Container
+{
+    background-color: var(--color5);
+    text-align: center;
+    padding:10px;
+    box-shadow:inset 0px 0px 10px rgba(0,0,0,0.5);
+}
+.Product_Enquiry_Button
+{
+    background-color: var(--color6);
+    color:white;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color:  var(--color1);
+    padding:7px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    margin-bottom: 10px;
+}
+
+/*Payments Section*/
+.Payment_Logo
+{
+    height: 60px;;
+}
+.Payment_Container
+{
+    background-color: white;
+    border-color: var(--color4);
+    border-width: 3px;
+    border-style: solid;
+    margin-bottom:40px;
+    padding:10px;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+}
+.Payment_QR
+{
+    width:80%;
+}
+
+/*Gallery Section*/
+.videos
+{
+    width:90%;
+    margin:20px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: var(--color4);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+.videos:hover
+{
+    transform: scale(1.03);
+}
+.photos
+{
+   overflow: hidden;
+   width:90%;
+   margin: 10px;
+   box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+.photos:hover
+{
+    transform: scale(1.03);
+}
+.TextInGallery
+{
+    font-size: 20px;
+    margin-left: 30px;
+}
